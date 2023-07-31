@@ -80,8 +80,8 @@
             "ZAAK-2023-0000000121"
           ]
         },
-        "communicatiekanaal" : {
-          "title" : "Communicatiekanaal",
+        "kanaal" : {
+          "title" : "Kanaal",
           "description" : "Medium waarlangs de aanleiding om een zaak te starten is ontvangen. URL naar een communicatiekanaal in de VNG-Referentielijst van communicatiekanalen.",
           "type" : "string",
           "formaat" : "uri",
@@ -155,7 +155,7 @@
             "123456784"
           ]
         },
-        "transactiedatumtijd" : {
+        "transactiedatum" : {
           "title" : "Transactie datum/tijd",
           "description" : "Tijdstip waarop de transactie met het betaalsysteem heeft plaatsgevonden",
           "type" : "string",
@@ -259,7 +259,7 @@
       "taal" : "nld",
       "zaakgegevens" : {
         "identificatie" : "ZAAK-2023-0000000121",
-        "communicatiekanaal" : "https://referentielijsten-api.vng.cloud/api/v1/communicatiekanalen/f56552a8-a082-4306-9111-eb1664fcb05d",
+        "kanaal" : "https://referentielijsten-api.vng.cloud/api/v1/communicatiekanalen/f56552a8-a082-4306-9111-eb1664fcb05d",
         "omschrijving" : "Verhuizing Blaak 27",
         "toelichting" : "Nieuw huis gekocht"
       },
@@ -286,7 +286,7 @@
         "bedrag" : 19.20,
         "status" : "niet_geslaagd",
         "transactieId" : "123456784",
-        "transactiedatumtijd" : "2021-04-25T21:30:05+00",
+        "transactiedatum" : "2021-04-25T21:30:05+00",
         "statusCode" : "5",
         "melding" : "Saldo tekort"
       },
