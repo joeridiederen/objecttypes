@@ -217,15 +217,11 @@
     "additionalProperties" : true
   },
   "required" : [
-    "bron",
     "type",
     "aanvraaggegevens"
   ],
   "examples" : [
     {
-      "bron" : {
-        "naam" : "Open Formulieren"
-      },
       "type" : "verhuizing",
       "aanvraaggegevens" : {
         "uw-gegevens" : {
